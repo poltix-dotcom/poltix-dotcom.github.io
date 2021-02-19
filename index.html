@@ -1,154 +1,232 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-
-Name       : RedMarket 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20140101
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <link
-      href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900"
-      rel="stylesheet"
-    />
-    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <title>Poltix</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
 
-    <!--[if IE 6
-      ]><link href="default_ie6.css" rel="stylesheet" type="text/css"
-    /><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
   </head>
   <body>
-    <div id="header-wrapper">
-      <div id="header" class="container">
-        <div id="logo">
-          <h1><a href="#">RedMarket</a></h1>
-        </div>
-        <div id="menu">
-          <ul>
-            <li class="active">
-              <a href="#" accesskey="1" title="">Homepage</a>
-            </li>
-            <li><a href="#" accesskey="2" title="">Our Clients</a></li>
-            <li><a href="#" accesskey="3" title="">About Us</a></li>
-            <li><a href="#" accesskey="4" title="">Careers</a></li>
-            <li><a href="#" accesskey="5" title="">Contact Us</a></li>
-          </ul>
-        </div>
+    <!-- Header -->
+    <header id="header" class="alt">
+      <div class="logo">
+        <a href="index.html"> Poltix </a>
       </div>
-      <div id="banner" class="container">
-        <span
-          >Maecenas vitae orci vitae<br />
-          tellus feugiat eleifend</span
-        >
-      </div>
-    </div>
-    <div id="wrapper">
-      <div id="staff" class="container">
-        <div class="title">
-          <h2>Etiam rhoncus volutpat</h2>
-          <span
-            >Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna
-            congue rutrum</span
-          >
-        </div>
-        <div class="boxA">
-          <img src="images/pic01.jpg" width="300" height="450" alt="" />
-        </div>
-        <div class="boxB">
-          <img src="images/pic02.jpg" width="300" height="450" alt="" />
-        </div>
-        <div class="boxC">
-          <img src="images/pic03.jpg" width="300" height="450" alt="" />
-        </div>
-      </div>
-      <div id="page" class="container">
-        <div class="boxA">
-          <h2>
-            Fusce ultrices<br />
-            <span>fringilla metus</span>
-          </h2>
-          <p>
-            Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna
-            congue rutrum.
-          </p>
-          <ul class="style4">
-            <li class="first"><a href="#">Consectetuer adipiscing elit</a></li>
-            <li><a href="#">Metus aliquam pellentesque</a></li>
-            <li><a href="#">Proin gravida orci porttitor</a></li>
-          </ul>
-        </div>
-        <div class="boxB">
-          <h2>
-            Praesent<br />
-            <span> scelerisque scelerisque</span>
-          </h2>
-          <ul class="style3">
-            <li class="first">
-              <p class="date">
-                <a href="#">Dec<b>30</b></a>
-              </p>
-              <h3>Amet sed volutpat mauris</h3>
-              <p>
-                <a href="#">Mauris tempus nibh sodales adipiscing dolore.</a>
-              </p>
-            </li>
-            <li>
-              <p class="date">
-                <a href="#">Dec<b>28</b></a>
-              </p>
-              <h3>Sagittis diam dolor amet</h3>
-              <p><a href="#">Duis arcu tortor fringilla sed sed magna.</a></p>
-            </li>
-          </ul>
-        </div>
-        <div class="boxC">
-          <h2>
-            Etiam posuere<br />
-            <span>augue sit amet</span>
-          </h2>
-          <ul class="style4">
-            <li class="first"><a href="#">Consectetuer adipiscing elit</a></li>
-            <li><a href="#">Metus aliquam pellentesque</a></li>
-            <li><a href="#">Suspendisse iaculis mauris</a></li>
-            <li><a href="#">Urnanet non molestie semper</a></li>
-            <li><a href="#">Suspendisse iaculis mauris</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="welcome" class="container">
-        <div class="title">
-          <h2>Welcome to our website</h2>
-        </div>
+      <a href="#menu" class="toggle"><span>Menu</span></a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#one">Who we are</a></li>
+        <li><a href="#two">Our Services</a></li>
+        <li><a href="#three">Join Us</a></li>
+        <li><a href="#four">Our Products</a></li>
+      </ul>
+    </nav>
+
+    <!-- Banner -->
+    <!--
+			To use a video as your background, set data-video to the name of your video without
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
+    <section id="banner" data-video="images/banner">
+      <div class="inner">
+        <h1>Poltix</h1>
         <p>
-          This is <strong>RedMarket</strong>, a free, fully standards-compliant
-          CSS template designed by
-          <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos
-          in this template are from
-          <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is
-          released under the
-          <a href="http://templated.co/license">Creative Commons Attribution</a>
-          license, so you're pretty much free to do whatever you want with it
-          (even use it commercially) provided you give us credit for it. Have
-          fun :)
+          Redefining politics for the people, aided by technology, driven by
+          passion.
         </p>
+        <a href="#one" class="button special scrolly">Learn more</a>
       </div>
-    </div>
-    <div id="copyright" class="container">
-      <p>
-        &copy; Untitled. All rights reserved. | Photos by
-        <a href="http://fotogrph.com/">Fotogrph</a> | Design by
-        <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.
-      </p>
-    </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="wrapper style2">
+      <div class="inner">
+        <div>
+          <div class="box">
+            <div class="image fit">
+              <img src="images/pic01.jpg" alt="" />
+            </div>
+            <div class="content">
+              <header class="align-center">
+                <h2>Who we are</h2>
+              </header>
+              <hr />
+              <p>
+                We are young professionals with strong cumulative experience
+                over consulting, technology and community-building. We at
+                Politix are extremely passionate towards developmental politics
+                and aspire to build a people-centric approach for their
+                representatives.
+              </p>
+              <p>
+                Integrating technical expertise into a strong understanding of
+                electoral campaigns and the grassroot problems, we make people
+                understand how they drive democracy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style3">
+      <div class="inner">
+        <h2 class="align-center">Our Services</h2>
+        <hr />
+        <div id="flexgrid">
+          <div>
+            <header>
+              <h3>Data Research</h3>
+            </header>
+            <p>
+              We deploy critical analyses of the political landscape and the
+              interplay of many factors that drive decisions in the elections.
+              Done through implementation of modern algorithms
+            </p>
+          </div>
+          <div>
+            <header>
+              <h3>Digital footprint</h3>
+            </header>
+            <p>
+              We create and sustain the online presence of the politicians to
+              establish clearer means of communication through proper social
+              media channels. Done through clear cut
+            </p>
+          </div>
+          <div>
+            <header>
+              <h3>Technology support</h3>
+            </header>
+            <p>
+              We perform tech-driven management actions to increase visibility
+              and approachability of the people towards their representatives.
+              Done through tools such as sentiment analysis and building
+              websites and apps.
+            </p>
+          </div>
+          <div>
+            <header>
+              <h3>Field Research</h3>
+            </header>
+            <p>
+              We ideate and organize events and actions to understand the needs
+              of the people better and analyze the bridge in planning and
+              execution from the representatives. Done through Grassroot opinion
+              surveys, rallies and volunteer mobilisation
+            </p>
+          </div>
+          <div>
+            <header>
+              <h3>Strategy</h3>
+            </header>
+            <p>
+              We reinvent campaigns and help rethink policy-making to discard
+              the age-old ideas of garnering votes. Done through compelling
+              campaign design and narratives and leadership positioning.
+            </p>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three -->
+    <!-- One -->
+    <section id="three" class="wrapper style2">
+      <div class="inner">
+        <div>
+          <!-- <div class="box"> -->
+          <div class="content">
+            <header class="align-center">
+              <h2>Join Us</h2>
+            </header>
+            <p>
+              We are set to reimagine democracy in India and are looking for
+              passionate people to join us on this mission. Through a
+              comprehensive work style and motto, you get an unparalleled
+              experience working from the grassroots to the top tiers. Contact
+              us to know more about our working and if you can make a meaningful
+              contribution! Reach out to [Email] for any queries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Four -->
+    <section id="four" class="wrapper style3">
+      <div class="inner">
+        <header class="align-center">
+          <h2>Our Product</h2>
+          <p>
+            Focussed on our guiding principle: 3P- {People, Party and
+            Politicians}, we are building end-to-end solutions that improve key
+            components of campaigns and elections. They are set to make
+            decision-making and interpretation of the political scenario simpler
+            and smoother. Stay tuned to know more!
+          </p>
+        </header>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>Poltix</h3>
+
+        <p class="footer-company-name">poltix &copy; 2019</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Address </span> Here , India</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 97518 44126</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:poltix123@gmail.com">poltix123@gmail.com</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          We at Politix are extremely passionate towards developmental politics.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-whatsapp"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
+<!-- Made with love by mohan-->
