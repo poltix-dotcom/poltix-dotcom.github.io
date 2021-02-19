@@ -3906,7 +3906,9 @@ body.subpage {
   position: relative;
   z-index: 2;
 }
-
+.taglinebold {
+  font-weight: bold;
+}
 #banner h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
