@@ -3908,6 +3908,8 @@ body.subpage {
 }
 .taglinebold {
   font-weight: bold;
+}
+.red {
   color: rgb(245, 50, 50);
 }
 #banner h1 {
