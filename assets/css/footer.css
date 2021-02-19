@@ -1,4 +1,3 @@
-/** code by webdevtrick ( https://webdevtrick.com ) **/
 body {
   margin: 0;
   padding: 0;
@@ -39,7 +38,7 @@ footer {
 
 .footer-distributed h3 {
   color: #ffffff;
-  font: normal 36px 'Cookie', cursive;
+  font: normal 36px sans-serif;
   margin: 0;
 }
 
